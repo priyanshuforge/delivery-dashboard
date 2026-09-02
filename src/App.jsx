@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [selectedOrder, setSelectedOrder] = useState(null);
-  const [orders, setOrders] = useState([
+  const [orders, setOrders] = useState([ 
     {
       id: "#ORD101",
       customer: "Rahul Sharma",
@@ -13,7 +13,7 @@ function App() {
     },
     {
       id: "#ORD102",
-      customer: "Anjali Verma",
+      customer: "Anjali Verma", 
       location: "Indirapuram",
       amount: "₹180",
       status: "Picked Up",
@@ -22,13 +22,13 @@ function App() {
       id: "#ORD103",
       customer: "Aman Singh",
       location: "Vaishali",
-      amount: "₹320",
+      amount: "₹320", 
       status: "Delivered",
     },
     {
       id: "#ORD104",
       customer: "Neha Gupta",
-      location: "Sector 18, Noida",
+      location: "Sector 18, Noida", 
       amount: "₹210",
       status: "Pending",
     },
