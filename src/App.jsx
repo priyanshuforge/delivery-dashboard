@@ -2,19 +2,19 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [selectedOrder, setSelectedOrder] = useState(null);
+  const [selectedOrder, setSelectedOrder] = useState(null); 
   const [orders, setOrders] = useState([ 
     {
       id: "#ORD101",
       customer: "Rahul Sharma",
-      location: "Sector 62, Noida",
+      location: "Sector 62, Noida", 
       amount: "₹250",
       status: "Pending",
     },
     {
       id: "#ORD102",
       customer: "Anjali Verma", 
-      location: "Indirapuram",
+      location: "Indirapuram", 
       amount: "₹180",
       status: "Picked Up",
     },
