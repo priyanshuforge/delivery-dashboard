@@ -5,14 +5,14 @@
 }
  
 body {
-  font-family: Arial, sans-serif;  
+  font-family: Arial, sans-serif;   
   background: #f5f7fb;
   color: #1f2937;
 } 
 
 .dashboard { 
   display: flex;
-  min-height: 100vh;  
+  min-height: 100vh;   
 } 
 
 /* Sidebar */
@@ -20,10 +20,10 @@ body {
 .sidebar {
   width: 240px; 
   background: #111827; 
-  color: white; 
+  color: white;  
   padding: 30px 20px;
 }
-
+ 
 .sidebar h2 { 
   margin-bottom: 40px; 
   font-size: 22px;
