@@ -13,7 +13,7 @@ function App() {
     },
     {
       id: "#ORD102",
-      customer: "Anjali Verma", 
+      customer: "Anjali Verma",  
       location: "Indirapuram", 
       amount: "₹180",
       status: "Picked Up",
@@ -24,11 +24,11 @@ function App() {
       location: "Vaishali",
       amount: "₹320", 
       status: "Delivered",
-    },
+    }, 
     {
       id: "#ORD104",
       customer: "Neha Gupta",
-      location: "Sector 18, Noida", 
+      location: "Sector 18, Noida",  
       amount: "₹210",
       status: "Pending",
     },
