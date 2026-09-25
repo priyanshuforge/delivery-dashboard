@@ -12,7 +12,7 @@ body {
 
 .dashboard { 
   display: flex;
-  min-height: 100vh;   
+  min-height: 100vh;          
 } 
 
 /* Sidebar */
@@ -20,19 +20,19 @@ body {
 .sidebar {
   width: 240px; 
   background: #111827;  
-  color: white;  
+  color: white;      
   padding: 30px 20px;
 }
  
 .sidebar h2 {        
-  margin-bottom: 40px; 
+  margin-bottom: 40px;     
   font-size: 22px;
 } 
 
 .sidebar nav {
   display: flex;
   flex-direction: column;      
-  gap: 12px; 
+  gap: 12px;    
 }
 
 .sidebar a {
